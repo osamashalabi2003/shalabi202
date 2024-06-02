@@ -1,0 +1,79 @@
+<HTML>
+	<HEAD>
+	<style>
+		h1{
+		color:black;
+		background-color:lightyellow;
+		text-align:center;
+		font-size:30pt;
+		
+		}
+
+				div.OSA{
+
+ 	position:absolute;
+  	left: 250px;
+  		
+	padding:150px;
+
+			}
+
+		div.OSA2{
+ 		position:absolute;
+  		right: -200;	
+		padding:150px;
+
+			}
+
+		h1.o2{
+		position:absolute;
+		right: 205px;
+		top: 120px;
+		font-size:16pt;
+
+
+
+		}
+
+
+	</style>
+	<script>
+        var r = 0, g = 0, b = 0;
+
+        function mixColor(){
+            r = eval(document.getElementById("r").value);
+            g = eval(document.getElementById("g").value);
+            b = eval(document.getElementById("b").value);
+
+            document.body.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+        }
+    </script>
+
+	<TITLE> المعلمة أركان مناصرة للفيزياء عاشر  </title>
+	</HEAD>
+	<BODY style="background-color:white;">
+		
+		<center><h1 style="background-color:lightyellow;">مرحبا بكم طالباتي في الصف العاشر </h1></center>
+		<pre>
+<center><p style="font-size:14pt; width:500px; weight:40px; text-align: center; font-weight:bold; background-color:lightyellow;">الهدف من هذا الموقع مساعدتكم في فهم مادة الفيزياء </p></center>
+		</pre>
+		
+
+
+		<div class="OSA">
+	<a href="p3.html" target="_blank"> <input type="submit" value="تلخيص الفصل الاول " style="font-weight:bold; font-size:16pt; background-color:lightyellow;
+" > </a> &nbsp; <a href="p2.html" target="_blank"> <input type="submit" value="تلخيص الفصل الثاني " style="font-weight:bold;font-size:16pt; background-color:lightyellow;
+"  > </a> &nbsp; <a href="p5.html" target="_blank"> <input type="submit" value="التواصل " style="font-weight:bold; font-size:16pt; background-color:lightyellow;
+" > </a> </div>
+	<div class="OSA2">
+		<h1 class="o2" style="font-size:10pt;  text-align: center; font-weight:bold; background-color:lightyellow;">ادخلي رقم ما بين 0-255 حتى يتم تغير لون الخلفية</h1>
+
+	
+        <input type="text" id="r" value="0" style="background-color: red; color: white; font-weight: bold; font-size: 14pt;" onChange="mixColor();"><br/>
+        <input type="text" id="g" value="0" style="background-color: green; color: white; font-weight: bold; font-size: 14pt;" onChange="mixColor();"><br/>
+        <input type="text" id="b" value="0" style="background-color: blue; color: white; font-weight: bold; font-size: 14pt;" onChange="mixColor();"><br/> 
+</div>
+
+
+</BODY>
+</HTML>
